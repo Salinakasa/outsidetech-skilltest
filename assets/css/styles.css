@@ -1,0 +1,11 @@
+@font-face {
+  font-family: galaxie;
+  src: url(assets/fonts/Galaxie.otf) format("opentype");
+}
+@font-face {
+  font-family: inter;
+  src: url(assets/fonts/Inter.ttf) format("truetype");
+}
+body {
+  color: orange;
+}

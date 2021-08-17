@@ -1,0 +1,13 @@
+$ ls -1d .git*
+.git
+sftp-config.json
+logs/
+package-lock.json
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
