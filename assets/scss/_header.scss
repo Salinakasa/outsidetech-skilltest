@@ -1,0 +1,38 @@
+// Top header
+.top-header {
+	padding: 22px 0;
+}
+.social>div:not(:first-of-type) {
+	padding-left: 32px;
+}
+.social img {
+	max-height: 16px;
+}
+
+// Main header
+.main-header .main-header__details, .main-banner .main-banner__details {
+	@include max-w-xl;
+	background-color: #fff;
+	padding: 70px 120px 30px 60px;
+}
+.main-banner.main-banner-dark .main-banner__details {
+	background-color: $red;
+}
+.main-banner .main-banner__details {
+	padding-bottom: 366px;
+}
+.main-header nav.navbar {
+	padding: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link, .main-footer__quicklinks a {
+	padding-right: 0;
+	padding-left: 58px;
+	font-family: $font-secondary;
+	font-size: 14px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: $secondary-color;
+	&:hover {
+		color: $primary-color;
+	}
+}

@@ -1,0 +1,31 @@
+// Main banner
+.main-banner__details h1 {
+	@include main-header;
+}
+.main-banner__details .main-banner__content {
+	max-width: 885px;
+}
+.main-banner-dark .main-banner__details .main-banner__content {
+	max-width: 780px;
+}
+.main-banner-dark .main-banner__details .main-banner__content p {
+	max-width: 580px;
+}
+.main-banner__details .btn-default {
+	@include btn-layoutarrow;
+}
+.main-banner__image {
+	margin-top: -282px;
+}
+.main-banner-dark .main-banner__details>*, .founder>*, .main-banner-dark .main-title, .founder .main-title {
+	color: #ffffff;
+}
+
+// Founder section
+.founder__details {
+	background-color: $beige;
+	padding: 80px 0 334px 0;
+}
+.founder__image {
+	margin-top: -183px;
+}

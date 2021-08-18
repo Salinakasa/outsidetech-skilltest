@@ -1,0 +1,35 @@
+// Base css
+body {
+	background-color: $base-color;
+	font-family: $font-primary;
+	font-weight: 400;
+}
+p {
+	font-size: 18px;
+	line-height: 25px;
+}
+a, a:hover {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+    height: auto;
+}
+section {
+	margin-bottom: 160px;
+}
+.main-title {
+	text-transform: uppercase;
+	font-family: $font-secondary;
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 32px;
+	color: $primary-color;
+	font-weight: 700;
+}
+.sub-title {
+	font-size: 44px;
+	line-height: 52px;
+	margin-bottom: 20px;
+}

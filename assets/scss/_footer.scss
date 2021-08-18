@@ -1,0 +1,26 @@
+.main-footer {
+	background-color: $secondary-color;
+	padding: 76px 0 0 0;
+}
+.main-footer>*, .main-footer a {
+	color: #ffffff;
+	font-family: $font-secondary;
+}
+.main-footer__logo {
+	padding-bottom: 45px;
+	border-bottom: 1px solid #ffffff;
+	margin-bottom: 20px;
+}
+.main-footer__quicklinks>div:first-of-type a {
+	padding-left: 0;
+}
+.main-footer__copyright {
+	padding-top: 160px;
+	padding-bottom: 40px;
+}
+.main-footer__copyright>* {
+	font-size: 14px;
+}
+.main-footer__policies>div:not(:first-of-type) {
+	padding-left: 58px;
+}

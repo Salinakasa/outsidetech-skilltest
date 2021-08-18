@@ -1,9 +1,6 @@
-@import 'config';
+@import 'variables';
 @import 'mixins';
-@import 'utilities';
+@import 'base';
+@import 'header';
+@import 'footer';
 @import 'home';
-
-
-body {
-	color: orange;
-}

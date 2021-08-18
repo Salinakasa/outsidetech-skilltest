@@ -1,0 +1,20 @@
+@font-face {
+	font-family: galaxie;
+	src: url(../fonts/Galaxie.otf) format("opentype");
+}
+@font-face {
+	font-family: inter;
+	src: url(../fonts/Inter.ttf) format("truetype");
+}
+
+// Colors
+$base-color: #F2EFEE; //gray
+$primary-color: #003A92; //blue
+$secondary-color: #3C3C3C; //black
+$tertiary-color: #74788A; //light-gray
+$red: #8C2531; //dark-red
+$beige: #D7C3AE; //beige
+
+// fonts
+$font-primary: galaxie;
+$font-secondary: inter;
