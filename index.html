@@ -6,6 +6,8 @@
 	<title>Homepage</title>
 	<!-- Bootstrap CSS cdn -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Slick slider css cdn  -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 	<!-- Custom css -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -78,8 +80,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="main-banner__image">
-			<img src="assets/images/banner.jpg" alt="" class="ml-auto">
+		<div class="main-banner__image ml-auto">
+			<img src="assets/images/banner.jpg" alt="">
 		</div>
 	</section>
 	<!-- Main banner -->
@@ -87,13 +89,88 @@
 	<!-- Latest news -->
 	<section class="latest-news">
 		<div class="container">
-			<h5 class="main-title">latest news</h5>
 			<div class="row">
-				<div class="col-md-6">
-					hello
+				<div class="col-md-6 pr-0">
+					<h5 class="main-title">latest news</h5>
+					<div class="latest-news__card">
+						<div class="latest-news__card--img">
+							<a href="#">
+								<img src="assets/images/news.jpg" alt="">
+							</a>
+						</div>
+						<div class="latest-news__card--date">
+							<span>november 19 </span>
+							<span> 2020</span>
+						</div>
+						<div class="latest-news__card--body">
+							<h2>
+								<a href="#">Molestie molesti metus, tempus in commodo, semper tellus</a>
+							</h2>
+						</div>
+					</div>
+					<div class="mt-5">
+						<a href="#" class="see-all">See all news</a>
+					</div>
 				</div>
-				<div class="col-md-6">
-					hello
+				<div class="col-md-6 pl-0">
+					<div class="latest-news__card">
+						<div class="latest-news__card--img">
+							<a href="#">
+								<img src="assets/images/news.jpg" alt="">
+							</a>
+						</div>
+						<div class="latest-news__card--date">
+							<span>november 19 </span>
+							<span> 2020</span>
+						</div>
+						<div class="latest-news__card--body">
+							<h3>
+								<a href="#">Molestie molesti metus, tempus in commodo, semper tellus</a>
+							</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 pr-0">
+							<div class="latest-news__card">
+								<div class="latest-news__card--img">
+									<a href="#">
+										<img src="assets/images/news1.jpg" alt="">
+									</a>
+								</div>
+								<div class="latest-news__card--date">
+									<span>november 19 </span>
+									<span> 2020</span>
+								</div>
+								<div class="latest-news__card--body">
+									<p>
+										<a href="#">
+											In faucibus suspendisse magna massa nibh elementum augue phasellus tristique senectus urna
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 pl-0">
+							<div class="latest-news__card h-100">
+								<div class="latest-news__card--img">
+									<a href="#">
+										<img src="assets/images/news1.jpg" alt="">
+									</a>
+								</div>
+								<div class="latest-news__card--date">
+									<span>november 19 </span>
+									<span> 2020</span>
+								</div>
+								<div class="latest-news__card--body">
+									<p>
+										<a href="#">
+											Feugiat mollis quam sollicitudin egestas adipiscing amet
+										</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -119,8 +196,54 @@
 	</section>
 	<!-- Our mission -->
 
+	<!-- Beneficiaries -->
+	<section class="beneficiaries mb-0">
+		<div class="beneficiaries__details ml-auto">
+			<h5 class="main-title">beneficiaries</h5>
+			<div class="beneficiaries__slider">
+				<div>
+					<img src="assets/images/benefit1.jpg" alt="">
+					<div class="beneficiaries__slider--details">
+						<p>Morbi magna turpis dolor adipiscing</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/benefit2.jpg" alt="">
+					<div class="beneficiaries__slider--details">
+						<p>Morbi magna turpis dolor adipiscing</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/benefit3.jpg" alt="">
+					<div class="beneficiaries__slider--details">
+						<p>Morbi magna turpis dolor adipiscing</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/benefit1.jpg" alt="">
+					<div class="beneficiaries__slider--details">
+						<p>Morbi magna turpis dolor adipiscing</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/benefit2.jpg" alt="">
+					<div class="beneficiaries__slider--details">
+						<p>Morbi magna turpis dolor adipiscing</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/benefit3.jpg" alt="">
+					<div class="beneficiaries__slider--details">
+						<p>Morbi magna turpis dolor adipiscing</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Beneficiaries -->
+
 	<!-- Founder -->
-	<section class="founder">
+	<section class="founder mb-0">
 		<div class="founder__details">
 			<div class="container">
 				<p class="main-title">the founders</p>
@@ -131,6 +254,34 @@
 		</div>
 	</section>
 	<!-- Founder -->
+
+	<!-- Gallery -->
+	<section class="gallery mb-0">
+		<div class="gallery__details">
+			<div class="gallery__slider">
+				<div>
+					<h5 class="main-title">Gallery</h5>
+					<img src="assets/images/gallery1.jpg" alt="">
+					<div class="gallery__slider--details">
+						<p>Caption lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/gallery2.jpg" alt="">
+					<div class="gallery__slider--details">
+						<p>Caption lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+				<div>
+					<img src="assets/images/gallery3.jpg" alt="">
+					<div class="gallery__slider--details">
+						<p>Caption lorem ipsum dolor sit amet</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Gallery -->
 
 	<!-- Footer -->
 	<footer class="main-footer">
@@ -206,5 +357,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<!-- Slick slider JS cdn -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/custom.js"></script>
 </body>
 </html>

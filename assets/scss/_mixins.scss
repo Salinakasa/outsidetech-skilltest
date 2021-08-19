@@ -1,10 +1,29 @@
 @mixin max-w-xl {
-	max-width: 1380px;
+	max-width: calc(100% - 240px);
+	@media(max-width: 1680px) {
+		max-width: calc(100% - 120px);
+	}
+	@media(max-width: 992px) {
+		max-width: calc(100% - 88px);
+	}
+	@media(max-width: 768px) {
+		max-width: calc(100% - 64px);
+	}
+	@media(max-width: 576px) {
+		max-width: calc(100% - 48px);
+	}
+	@media(max-width: 375px) {
+		max-width: calc(100% - 32px);
+	}
 }
 @mixin main-header {
 	color: $primary-color;
 	font-size: 64px;
 	line-height: 70px;
+	@media(max-width: 767px) {
+		font-size: 28px;
+		line-height: 1.1;
+	}
 }
 @mixin btn-layoutarrow {
 	font-family: $font-secondary;
@@ -14,6 +33,11 @@
 	padding: 22px 86px 22px 22px;
 	border: 1px solid #C4C4C4;
 	position: relative;
+	@media(max-width: 767px) {
+		font-size: 14px;
+		line-height: 14px;
+		padding: 10px 30px 10px 10px;
+	}
 	&:after {
 		content: '';
 		background: url('../images/right.png') no-repeat;
@@ -24,6 +48,12 @@
 		right: 28px;
 		top: 50%;
     	transform: translateY(-50%);
+    	@media(max-width: 767px) {
+    		right: 12px;
+    		background-size: 7px 11px;
+		    width: 7px;
+		    height: 11px;
+    	}
 	}
 	&:before {
 		content: '';
@@ -33,5 +63,9 @@
 		position: absolute;
 		top: 0;
 		right: 64px;
+		@media(max-width: 767px) {
+			height: 36px;
+			right: 24px;
+		}
 	}
 }

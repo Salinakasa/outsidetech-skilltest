@@ -14,6 +14,9 @@
 	@include max-w-xl;
 	background-color: #fff;
 	padding: 70px 120px 30px 60px;
+	@media(max-width: 575px) {
+		padding: 10px 60px 30px 30px;
+	}
 }
 .main-banner.main-banner-dark .main-banner__details {
 	background-color: $red;

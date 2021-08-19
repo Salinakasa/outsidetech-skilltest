@@ -20,6 +20,13 @@
 .main-banner-dark .main-banner__details>*, .founder>*, .main-banner-dark .main-title, .founder .main-title {
 	color: #ffffff;
 }
+section.main-banner-dark {
+	margin-bottom: 60px;
+}
+.main-banner__image>img {
+	width: 100%;
+	object-fit: cover;
+}
 
 // Founder section
 .founder__details {
@@ -28,4 +35,107 @@
 }
 .founder__image {
 	margin-top: -183px;
+}
+
+// Latest news section
+.see-all {
+	border-bottom: 1px solid #C4C4C4;
+	font-family: $font-secondary;
+	font-size: 18px;
+	line-height: 18px;
+	padding-bottom: 14px;
+	color: $secondary-color;
+	position: relative;
+	&:after {
+		content: '';
+		background: url('../images/right.png') no-repeat;
+		background-size: 10px 16px;
+		width: 10px;
+		height: 16px;
+		position: absolute;
+		top: 9%;
+    	right: -17px;
+	}
+}
+.latest-news .main-title {
+	margin-bottom: 60px;
+}
+.latest-news__card {
+	padding: 40px 40px 0 40px;
+	border: 1px solid #ffffff;
+}
+.latest-news__card--body h2, .latest-news__card--body h2>a,
+.latest-news__card--body h3, .latest-news__card--body h3>a,
+.latest-news__card--body p, .latest-news__card--body p>a {
+	color: $secondary-color;
+}
+.latest-news__card--body h2, .latest-news__card--body h2>a {
+	line-height: 52px;
+	font-size: 44px;
+	margin-bottom: 91px;
+}
+.latest-news__card--body h3, .latest-news__card--body h3>a {
+	font-size: 32px;
+	margin-bottom: 56px;
+	line-height: 38px;
+}
+.latest-news__card--body p, .latest-news__card--body p>a {
+	font-size: 18px;
+	margin-bottom: 47px;
+	line-height: 25px;
+}
+.latest-news__card--date {
+	margin: 20px 0 16px;
+}
+.latest-news__card--date>* {
+	font-size: 14px;
+	line-height: 14px;
+	font-family: $font-secondary;
+	text-transform: uppercase;
+	position: relative;
+	color: $tertiary-color;
+}
+.latest-news__card--date>*:not(:last-of-type):after {
+	content: '';
+	position: absolute;
+	background-color: #C4C4C4;
+	width: 32px;
+	height: 1px;
+	top: 50%;
+}
+.latest-news__card--date>*:not(:last-of-type) {
+	margin-right: 34px;
+}
+
+// Beneficiaries section
+.beneficiaries__details {
+	max-width: calc(100% - 60px);
+}
+.beneficiaries__slider--details {
+	max-width: 255px;
+	padding-top: 16px;
+}
+.beneficiaries__details .main-title {
+	margin-bottom: 47px;
+}
+.beneficiaries__slider--details>* {
+	font-size: 18px;
+	font-weight: 400px;
+	line-height: 25px;
+	color: $secondary-color;
+}
+
+// Gallery section
+.gallery__slider .main-title {
+	margin-bottom: 60px;
+}
+.gallery__slider .slick-slide {
+	padding: 40px;
+	border: 1px solid #F2EFEE;
+}
+.gallery, .beneficiaries, .founder {
+	background-color: #ffffff;
+}
+.gallery, .beneficiaries {
+	padding: 80px 0 150px;
 }
