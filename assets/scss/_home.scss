@@ -27,14 +27,33 @@ section.main-banner-dark {
 	width: 100%;
 	object-fit: cover;
 }
+.main-banner__image {
+	max-width: calc(100vw - 300px);
+}
 
 // Founder section
-.founder__details {
+.founder__title {
 	background-color: $beige;
 	padding: 80px 0 334px 0;
 }
 .founder__image {
 	margin-top: -183px;
+}
+.founder__details {
+	bottom: 60px;
+	padding-left: 60px;
+	left: 240px;
+    right: 240px;
+    padding-right: 60px;
+}
+.founder__details>*:first-of-type {
+	border-bottom: 1px solid #ffffff;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.founder__details>* {
+	font-size: 44px;
+	line-height: 52px;
 }
 
 // Latest news section
@@ -109,7 +128,7 @@ section.main-banner-dark {
 
 // Beneficiaries section
 .beneficiaries__details {
-	max-width: calc(100% - 60px);
+	max-width: calc(100vw - 300px);
 }
 .beneficiaries__slider--details {
 	max-width: 255px;

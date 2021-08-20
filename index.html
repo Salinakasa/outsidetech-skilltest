@@ -37,7 +37,11 @@
 			<nav class="navbar navbar-expand-lg">
 				<a class="navbar-brand" href="#">LOGO</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-					<span class="navbar-toggler-icon"></span>
+					<div id="nav-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</button>
 				<div class="collapse navbar-collapse" id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto">
@@ -88,9 +92,9 @@
 
 	<!-- Latest news -->
 	<section class="latest-news">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6 pr-0">
+				<div class="col-md-6 pr-md-0">
 					<h5 class="main-title">latest news</h5>
 					<div class="latest-news__card">
 						<div class="latest-news__card--img">
@@ -108,11 +112,11 @@
 							</h2>
 						</div>
 					</div>
-					<div class="mt-5">
+					<div class="mt-5 mb-5 mb-lg-0">
 						<a href="#" class="see-all">See all news</a>
 					</div>
 				</div>
-				<div class="col-md-6 pl-0">
+				<div class="col-md-6 pl-md-0">
 					<div class="latest-news__card">
 						<div class="latest-news__card--img">
 							<a href="#">
@@ -130,7 +134,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6 pr-0">
+						<div class="col-lg-6 pr-lg-0">
 							<div class="latest-news__card">
 								<div class="latest-news__card--img">
 									<a href="#">
@@ -150,7 +154,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 pl-0">
+						<div class="col-lg-6 pl-lg-0">
 							<div class="latest-news__card h-100">
 								<div class="latest-news__card--img">
 									<a href="#">
@@ -244,13 +248,17 @@
 
 	<!-- Founder -->
 	<section class="founder mb-0">
-		<div class="founder__details">
-			<div class="container">
+		<div class="founder__title">
+			<div class="container-fluid">
 				<p class="main-title">the founders</p>
 			</div>
 		</div>
-		<div class="founder__image">
+		<div class="founder__image container-fluid position-relative">
 			<img src="assets/images/founder.jpg" alt="" class="mx-auto">
+			<div class="founder__details position-absolute">
+				<h2>Maria Kenter</h2>
+				<h2>Roger Septimus</h2>
+			</div>
 		</div>
 	</section>
 	<!-- Founder -->
@@ -285,7 +293,7 @@
 
 	<!-- Footer -->
 	<footer class="main-footer">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="main-footer__logo">
 				<a href="#">LOGO</a>
 			</div>
@@ -328,9 +336,9 @@
 				</div>
 			</div>
 			<div class="main-footer__copyright">
-				<div class="d-flex justify-content-between">
+				<div class="d-lg-flex justify-content-between">
 					<div>
-						<div class="main-footer__policies d-flex align-items-center">
+						<div class="main-footer__policies d-sm-flex align-items-center">
 							<div>
 								<a href="#">
 									Privacy Policy
@@ -343,7 +351,7 @@
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="main-footer__reserved">
 						© 2021 Company Name. All rights reserved.
 					</div>
 				</div>

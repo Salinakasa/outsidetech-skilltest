@@ -1,4 +1,9 @@
-$(document).ready(function() { 
+$(document).ready(function() {
+    // Hamburger to cross animation
+    $('#nav-icon').click(function(){
+        $(this).toggleClass('open');
+    });
+
     // Beneficiaries homepage slick slider
     $('.beneficiaries__slider').slick({
         dots: false,

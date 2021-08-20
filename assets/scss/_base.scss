@@ -15,6 +15,8 @@ img {
 	display: block;
 	max-width: 100%;
     height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 section {
 	margin-bottom: 160px;
@@ -35,4 +37,12 @@ section {
 }
 .beneficiaries .slick-list .slick-track>div {
 	margin-left: 55px;
+}
+.container-fluid {
+	padding-left: 240px;
+	padding-right: 240px;
+}
+.latest-news>.container-fluid, .main-footer>.container-fluid {
+	padding-left: 300px;
+	padding-right: 300px;
 }
