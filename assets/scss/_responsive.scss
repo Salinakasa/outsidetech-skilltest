@@ -2,8 +2,8 @@
 	.main-banner__image {
 		max-width: calc(100vw - 180px);
 	}
-	.beneficiaries__details {
-		max-width: calc(100vw - 120px);
+	.main-banner-dark .main-banner__details .main-banner__content {
+		margin-left: 180px;
 	}
 	.container-fluid {
 		padding-left: 120px;
@@ -43,8 +43,8 @@
 		padding-left: 88px;
 		padding-right: 88px;
 	}
-	.beneficiaries__details {
-		max-width: calc(100vw - 88px);
+	.main-banner-dark .main-banner__details .main-banner__content {
+		margin-left: 148px;
 	}
 	.latest-news>.container-fluid, .main-footer>.container-fluid {
 		padding-left: 148px;
@@ -74,8 +74,8 @@
 		padding-left: 64px;
 		padding-right: 64px;
 	}
-	.beneficiaries__details {
-		max-width: calc(100vw - 64px);
+	.main-banner-dark .main-banner__details .main-banner__content {
+		margin-left: 124px;
 	}
 	.latest-news>.container-fluid, .main-footer>.container-fluid {
 		padding-left: 124px;
@@ -87,6 +87,21 @@
 	.founder__details {
 		left: 64px;
 	    right: 64px;
+	}
+}
+@media(max-width: 767px) {
+	.latest-news__card--body h2, .latest-news__card--body h2 > a, .sub-title {
+		line-height: 30px;
+    	font-size: 24px;
+	}
+	.latest-news__card--body h3, .latest-news__card--body h3 > a {
+	    font-size: 20px;
+	    line-height: 25px;
+	}
+	.latest-news__card--body p, .latest-news__card--body p > a, 
+	.main-banner-dark .main-banner__details .main-banner__content p {
+		font-size: 16px;
+		line-height: 18px;
 	}
 }
 @media(max-width: 576px) {
@@ -103,14 +118,14 @@
 		padding-left: 48px;
 		padding-right: 48px;
 	}
-	.beneficiaries__details {
-		max-width: calc(100vw - 48px);
+	.main-banner-dark .main-banner__details .main-banner__content {
+		margin-left: 108px;
 	}
 	.latest-news>.container-fluid, .main-footer>.container-fluid {
 		padding-left: 108px;
 		padding-right: 108px;
 	}
-	.main-header .main-header__details {
+	.main-header .main-header__details, .main-banner .main-banner__details {
 		padding-top: 30px;
 	}
 	.beneficiaries__details {
@@ -150,8 +165,8 @@
 		padding-left: 32px;
 		padding-right: 32px;
 	}
-	.beneficiaries__details {
-		max-width: calc(100vw - 32px);
+	.main-banner-dark .main-banner__details .main-banner__content {
+		margin-left: 50px;
 	}
 	.latest-news>.container-fluid, .main-footer>.container-fluid {
 		padding-left: 50px;
